@@ -23,6 +23,6 @@ public class DemoApplication implements CommandLineRunner {
   @Override
   public void run(String... args) {
     SymphonyClient symphonyClient = symphonyStarter.getClient();
-    System.out.println(symphonyClient.getLocalUser().getDisplayName());
+    System.out.println("BOT NAME IS: " + symphonyClient.getLocalUser().getDisplayName());
   }
 }
